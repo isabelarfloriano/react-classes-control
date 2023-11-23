@@ -1,0 +1,31 @@
+body {
+  background-color: black;
+}
+
+.custom-input {
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
+  appearance: textfield;
+  background-color: white;
+  color: black;
+ }
+
+.dark-mode {
+ background-color: #333;
+ color: white;
+ padding: 1rem;
+ border-radius: 5px;
+}
+
+.dark-mode label {
+ margin-right: 1rem;
+}
+
+.dark-mode input[type="file"] {
+ color: white;
+ border-radius: 5px;
+}
+
+label {
+ margin-bottom: 0.5rem;
+}

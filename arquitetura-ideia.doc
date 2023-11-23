@@ -1,0 +1,20 @@
+control/
+|-- src/
+|   |-- assets/
+|   |   |--     //image
+|   |-- components/
+|   |   |-- common/             // Componentes reutilizáveis em várias páginas
+|   |   |   |-- Header.jsx
+|   |   |   |-- Footer.jsx
+|   |-- pages/
+|   |   |-- gradebook/         // Página específica do gradebook
+|   |   |   |-- Gradebook.js   // Componente principal da página
+|   |   |   |-- StudentRow.js  // Componente para as linhas da tabela
+|   |   |-- attendanceLists/         // Outra página (se necessário)
+|   |   |   |-- AttendanceLists.js   // Componente principal das modais
+|   |-- App.jsx                // Configuração de rotas
+|-- index.html
+|-- package.json
+.
+.
+.
